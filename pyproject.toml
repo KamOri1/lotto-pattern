@@ -1,0 +1,20 @@
+[project]
+name = "lotto-pattern"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "KamOri1",email = "iknowthis45@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4"
+dependencies = [
+    "django (>=6.0.6,<7.0.0)",
+    "django-environ (>=0.14.0,<0.15.0) ; python_version >= \"3.12\" and python_version < \"4\"",
+
+
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
